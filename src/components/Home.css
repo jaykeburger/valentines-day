@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Gaegu&family=Kanit:ital,wght@1,300&family=Open+Sans:ital,wght@1,500&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    background-color: rgb(46, 24, 51);
+    color: linear-gradient(90deg, rgba(252,162,235,1) 0%, rgba(241,195,171,1) 52%, rgba(102,223,247,1) 100%);
+    font-family: "Raleway";
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.line1 {
+    background: linear-gradient(to right, #f32170, 
+            #ff6b08, #cf23cf, #eedd44); 
+    -webkit-text-fill-color: transparent; 
+    -webkit-background-clip: text; 
+}
+
+.line3 {
+    background: linear-gradient(to right, #f32170, 
+    #ff6b08, #cf23cf, #eedd44); 
+-webkit-text-fill-color: transparent; 
+-webkit-background-clip: text; 
+}
+
+.line4 {
+	color: rgb(247, 199, 248);
+	font-size: 50px;
+	text-align: center;
+	animation: glow 1s ease-in-out infinite alternate;
+
+}
+
+.line2 {
+	color: rgb(247, 199, 248);
+	font-size: 50px;
+	text-align: center;
+	animation: glow 1s ease-in-out infinite alternate;
+}
+
+p {
+    background: linear-gradient(to right, #f32170, 
+    #ff6b08, #cf23cf, #eedd44); 
+-webkit-text-fill-color: transparent; 
+-webkit-background-clip: text; 
+}
+
+.button {
+    background:rgb(247, 199, 248);
+    border: none;
+    border-radius: 10px 10px;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    
+  }
+  
+  .button:hover {
+    opacity: 110%;
+    animation: glow2 1s ease-in-out infinite alternate;
+    }
+   @keyframes glow {
+     from{
+	   text-shadow: 0 0 40px rgb(218, 246, 250), 0 0 40px rgb(218, 246, 250), 0 0 40px rgb(218, 246, 250), 0 0 50px rgb(218, 246, 250),0 0 50px rgb(218, 246, 250);
+	 }
+	 to {
+	   text-shadow: 0 0 60px rgb(218, 246, 250), 0 0 70px rgb(218, 246, 250);
+	 }
+   }
+
+   @keyframes glow2 {
+    from{
+      box-shadow: 0 0 20px rgb(218, 246, 250), 0 0 20px rgb(218, 246, 250), 0 0 20px rgb(218, 246, 250), 0 0 20px rgb(218, 246, 250),0 0 20px rgb(218, 246, 250);
+    }
+    to {
+      box-shadow: 0 0 30px rgb(218, 246, 250), 0 0 30px rgb(218, 246, 250);
+    }
+  }
