@@ -119,7 +119,7 @@ function Home() {
                 }}
             onInit={(typewriter) => {
                 typewriter
-                .typeString("be my Valentine🌹")
+                .typeString("be my Valentine <3")
                 .start();
             }}
             />
